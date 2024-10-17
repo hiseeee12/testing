@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index </title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav class="navbar">
+    <header>
+        <img src="bankjateng.png.png" height=200 width="300" >
+    <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a></li>
+    </div>
+    <form action="login.html">
+        <label for="text"  ></label>
+        <input type="email" id="Email" placeholder="Email">
+        <label for="password" ></label>
+        <input type="password" id="password" placeholder="password">
+        <button >Login</button>
+    </form>
+    </header>
+</nav>
+    <main>
+<h2 class="h2">Formulir Pendaftaran Pembuatan Rekening</h2>
+<h3 class="h3">Syarat-syarat pendaftaran</h3>
+<ol>
+<li> Sudah berumur 18 tahun</li>
+<li> terdaftar santri aktif di PPTQ Baitul 'Abidin Darussalam</li>
+<li> Melengkapi data berikut :
+    <ul type="circle"> 
+        <!-- cara menjorokkan baris dari tulisan -->
+        <li>Fotocopy KTP</li>
+        <li> Fotocopy KK</li>
+    </ul>
+    
+</li>
+</ol>
+
+<br>
+<form method="post" action="selesai.html">
+<!-- tag pembuka form itu digunakan untuk mengisi formulir yang nantinya dikirimkan ke database. dan harus ditambahkan tag methode="post" dan tag action="selesai.html" untuk 
+ pindah kehalaman tersebut -->
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td> <input type="text" id="nama "></td>
+    </tr>
+    
+    <tr>
+        <td>NISN</td>
+        <td>:</td>
+        <td> <input type="number" id="nisn "></td>
+    </tr>
+    
+    <tr>
+        <td>NIK</td>
+        <td>:</td>
+        <td> <input type="text" id="nik "></td>
+    </tr>
+    
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td> <input type="text" id="alamat "></td>
+    </tr>
+    
+    <tr>
+        <td>Tempat, Tanggal Lahir</td>
+        <td>:</td>
+        <td> <select name="" id="">
+            <option value=""> jakarta</option>
+            <option value="">tegal</option>
+            <option value=""> bandung</option>
+            <option value="">surabaya</option>
+            <input type="date"></td>
+        </select>
+    </tr>
+    
+    <tr>
+        <td>Nama Ayah</td>
+        <td>:</td>
+        <td> <input type="text" id="ayah "></td>
+    </tr>
+    
+    <tr>
+        <td>Nama Ibu</td>
+        <td>:</td>
+        <td> <input type="text" id="ibu "></td>
+    </tr>
+    
+    <tr>
+        <td>No. Watshapp</td>
+        <td>:</td>
+        <td> <input type="number" id="wa "></td>
+    </tr>
+    
+    <tr>
+        <td>Pendidikan Terakhir</td>
+        <td>:</td>
+        <td> <input type="text" id="pendidikan"></td>
+    </tr>
+</table>
+<button type="submit">Daftar</button>
+</form>
+</main>
+
+<footer>Copyright Badar Programing</footer>
+</body>
+</html>
